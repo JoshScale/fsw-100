@@ -1,0 +1,19 @@
+h1{
+    font-family: sans-serif;
+    border-color: aquamarine;
+    width: 650px;
+    border: 3px dotted rgba(0, 0, 0, 0.867);
+}
+    
+    table,th,td,tr{
+        border:1px solid black;
+    }
+
+    .my-span{
+        color:blue;
+    }
+
+    a:hover{
+        background-color: red;
+    }
+
