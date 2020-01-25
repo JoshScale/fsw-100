@@ -3,46 +3,77 @@ body, html {
 }
 .space-one {
     display: inline-block;
-    border: 3px solid black;
     padding: 15px;
-    margin: 15px;
-    background-color:#F5C6D6 ;
-    
-    
+    margin: 5px;
+    background-color: #F5C6D6;
 }
-.space-two{
+.space-two {
     display: inline-block;
-    width: 25%;
-    padding: 10px;
-    border: 5px ;
-    margin: 0;    
-    background-color:#EE2E84 ;    
-
+    box-sizing:border-box ;
+    padding: 15px;
+    width: 250px;
+    margin: 5px;
+    background-color: #F5C6D6;
 }
+
 .space-three {
     display: inline-block;
-    width: 25%;
-    padding: 10px;
-    border: 5px ;
-    margin: 0;    
-    background-color:#EE2E84 ; 
+    box-sizing:border-box ;
+    padding: 15px;
+    width: 250px;
+    margin: 0px;
+    background-color: #F5C6D6;
+
 }
 .space-four{
     display: inline-block;
-    width: 25%;
-    padding: 10px;
-    border: 5px ;
-    margin: 10;    
-    background-color:#EE2E84
+    box-sizing:border-box ;
+    padding: 15px;
+    width: 240px;
+    margin: 0px;
+    background-color: #F5C6D6;
 }
 .space-five{
     display: inline-block;
-    width: 25%;
-    padding: 10px;
-    border: 5px ;
-    margin: 0;    
-    background-color:#EE2E84 
+    box-sizing:border-box ;
+    padding: 15px;
+    width: 240px;
+    margin: 0px;
+    background-color: #F5C6D6;
 }
 .space-six{
+    display: inline-block;
+    box-sizing:border-box ;
+    padding: 15px;
+    width: 450px;
+    margin: 15px;
+    background-color: #85cfd8;
+}
+
+    .space-seven{
+        display: inline-block;
+        box-sizing:border-box ;
+        padding: 15px;
+        width: 450px;
+        margin: 15px;
+        background-color: #85CFD8;
+
+    }
+.space-eight{
+    display: inline-block;
+    box-sizing:border-box ;
+    padding: 15px;
+    width: 450px;
+    margin: 15px;
+    background-color: #8dc63f;
+
+}
+.space-nine{
+    display: inline-block;
+    box-sizing:border-box ;
+    padding: 15px;
+    width: 250px;
+    margin: 15px;
+    background-color: #E76E34;
 
 }
