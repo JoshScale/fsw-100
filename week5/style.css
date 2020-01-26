@@ -2,22 +2,18 @@ body, html {
     margin: 10px;
 }
 .space-one {
-    display: grid;
-    padding: 15px;
-    margin: 5px;
-    background-color: #F5C6D6;
+    grid-column: col/span 4;
+    background-color:red;
+    grid-row:row 3;
 }
 .space-two {
-    display: grid;
-    box-sizing:border-box ;
-    padding: 15px;
-    width: 250px;
-    margin: 5px;
-    background-color: #F5C6D6;
+    grid-column: col/span 4;
+    background-color:blueviolet;
+
 }
 
 .space-three {
-    display: grid;
+    display: inline-block;
     box-sizing:border-box ;
     padding: 15px;
     width: 250px;
@@ -26,7 +22,7 @@ body, html {
 
 }
 .space-four{
-    display: grid;
+    display: inline-block;
     box-sizing:border-box ;
     padding: 15px;
     width: 240px;
@@ -34,7 +30,7 @@ body, html {
     background-color: #F5C6D6;
 }
 .space-five{
-    display: grid;
+    display: inline-block;
     box-sizing:border-box ;
     padding: 15px;
     width: 240px;
@@ -42,7 +38,7 @@ body, html {
     background-color: #F5C6D6;
 }
 .space-six{
-    display: grid;
+    display: inline-block;
     box-sizing:border-box ;
     padding: 15px;
     width: 450px;
@@ -51,7 +47,7 @@ body, html {
 }
 
     .space-seven{
-        display: grid;
+        display: inline-block;
         box-sizing:border-box ;
         padding: 15px;
         width: 450px;
@@ -60,7 +56,7 @@ body, html {
 
     }
 .space-eight{
-    display:grid;
+    display: inline-block;
     box-sizing:border-box ;
     padding: 15px;
     width: 450px;
@@ -69,7 +65,7 @@ body, html {
 
 }
 .space-nine{
-    display: grid;
+    display: inline-block;
     box-sizing:border-box ;
     padding: 15px;
     width: 250px;
